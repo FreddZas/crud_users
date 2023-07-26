@@ -1,0 +1,78 @@
+.user__container {
+    margin-left: 2em;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.user__container:hover{
+    transform: scale(1.05);
+}
+.user__card {
+    background-color: #eceaea;
+    padding-top: 1em;
+    margin-top: 1em;
+    border: rgba(0, 0, 0, 0.156) solid 1px;
+    border-radius: 2%;
+    flex-wrap: wrap;
+    box-shadow: 10px 6px 9px #00000080;
+}
+.user__card:hover{
+    background-color: rgba(100, 100, 100, 0.322);
+    font-weight: 1.2em;
+}
+.user__name {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left: .2em;
+    padding-right: .2em;
+    color: black;
+    letter-spacing: -0.04rem;
+}
+.user__info-label {
+    color: rgba(0, 0, 0, 0.379);
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+    margin-top: 0.7em;
+    padding-left: 1em;
+}
+.user__info-value {
+    color: rgb(0, 0, 0) ;
+    line-height:.8em;
+    padding-left: .8em;
+    padding-bottom: .2em;
+}
+hr{
+    border-color: rgba(0, 0, 0, 0.12) ;
+    margin: 0.5em;
+}
+footer {
+    width: fit-content;
+    width: 80px ;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: .5em;
+    margin-left: 12.8em;
+}
+button {
+    font-size: 1.2em;
+}
+.delete__btn button {
+    background-color: red;
+    color: white;
+    border: rgba(6, 6, 6, 0.409) solid 1px;
+    border-radius: 10%;
+    padding-top: 0.25em;
+}
+.delete__btn button:hover{
+    background-color: rgb(198, 4, 4);
+}
+.update__btn button {
+    background-color: rgba(64, 64, 64, 0.14);
+    color: rgba(46, 45, 45, 0.682);
+    border: rgba(0, 0, 0, 0.285) solid 2px;
+    border-radius: 10%;
+    padding-top: 0.25em;
+}
